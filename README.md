@@ -4,5 +4,12 @@ The code reads temperature from a sensehat over the course of a week and then pr
 The third file is for the bluetooth rasberry pi that picks up devices in its proximity and sends messages to it
 
 Create.py is the creation of the database where the temperature are stored
+
 Crontask.py is reading of the sensehat and the Raspberry pi, into the database
+
 notification.py is used with pushbullet and notifies the user when the temperature
+
+bluez.py utilizes the bluetooth abilities of the raspberry and pops up the 
+
+
+All files were helped by the TUTORIALS OF Programming Internet of Things, plus additional web resources
